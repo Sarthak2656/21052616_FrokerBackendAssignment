@@ -1,4 +1,4 @@
-![Screenshot 2024-07-21 015523](https://github.com/user-attachments/assets/7adfa392-e8f1-43af-b488-244445a0ad40)This is a preview of the Froker backend coding assignment by Sarthak Bhowmik, Roll number: 21052616, Registration number: 21349980648 
+This is a preview of the Froker backend coding assignment by Sarthak Bhowmik, Roll number: 21052616, Registration number: 21349980648 
 
 API 1: http://localhost:5000/api/signup
 ![Screenshot 2024-07-21 015523](https://github.com/user-attachments/assets/34037f7a-d2a4-4049-baa3-fa69b2e1376f)
