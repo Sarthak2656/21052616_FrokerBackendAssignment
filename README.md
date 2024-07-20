@@ -18,3 +18,6 @@ API 3: http://localhost:5000/api/user
 API 4: http://localhost:5000/api/borrow
 
 ![Screenshot 2024-07-21 015634](https://github.com/user-attachments/assets/01f06001-7e54-414c-930f-4a38aef6afd6)
+
+
+To find the output on a website for a more user-friendly experience without using postman, type http://localhost:5000/ on your web browser for the JSON outputs.
