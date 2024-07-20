@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Lending App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Money Lending App</h1><br>
+
+        <!-- Signup Form -->
+        <div class="card mt-4">
+            <div class="card-header">Signup</div>
+            <div class="card-body">
+                <form id="signupForm">
+                    <div class="form-group">
+                        <label for="signupName">Name</label>
+                        <input type="text" class="form-control" id="signupName" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupEmail">Email</label>
+                        <input type="email" class="form-control" id="signupEmail" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPhoneNumber">Phone Number</label>
+                        <input type="text" class="form-control" id="signupPhoneNumber" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupDob">Date of Birth</label>
+                        <input type="date" class="form-control" id="signupDob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupMonthlySalary">Monthly Salary</label>
+                        <input type="number" class="form-control" id="signupMonthlySalary" placeholder="Monthly Salary" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Password</label>
+                        <input type="password" class="form-control" id="signupPassword" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Signup</button>
+                </form>
+            </div>
+        </div>
+        <br>
+
+        <!-- Login Form -->
+        <div class="card mt-4">
+            <div class="card-header">Login</div>
+            <div class="card-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- User Data -->
+        <div class="card mt-4">
+            <div class="card-header">User Data</div>
+            <div class="card-body">
+                <button id="getUserData" class="btn btn-info btn-block">Get User Data</button>
+                <pre id="userData" class="mt-3"></pre>
+            </div>
+        </div>
+        <br>
+
+        <!-- Borrow Money -->
+        <div class="card mt-4">
+            <div class="card-header">Borrow Money</div>
+            <div class="card-body">
+                <form id="borrowForm">
+                    <div class="form-group">
+                        <label for="borrowAmount">Amount</label>
+                        <input type="number" class="form-control" id="borrowAmount" placeholder="Amount" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="borrowTenure">Tenure (months)</label>
+                        <input type="number" class="form-control" id="borrowTenure" placeholder="Tenure" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Borrow</button>
+                </form>
+                <pre id="borrowData" class="mt-3"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
