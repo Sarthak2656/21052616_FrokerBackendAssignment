@@ -20,4 +20,5 @@ API 4: http://localhost:5000/api/borrow
 ![Screenshot 2024-07-21 015634](https://github.com/user-attachments/assets/01f06001-7e54-414c-930f-4a38aef6afd6)
 
 
+First run the server by navigating to the folder using cd command and then run the server using node app.js. Then you can use either postman or a web browser to find the output.
 To find the output on a website for a more user-friendly experience without using postman, type http://localhost:5000/ on your web browser for the JSON outputs.
